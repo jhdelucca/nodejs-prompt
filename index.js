@@ -5,7 +5,7 @@ var schema = {
         message: 'Name must be only letters, spaces, or dashes',
         required: true
       },
-      sobrenme: {
+      sobrenome: {
         pattern: /^[a-zA-Z\s\-]+$/,
         message: 'Name must be only letters, spaces, or dashes',
         required: true
